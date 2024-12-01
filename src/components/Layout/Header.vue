@@ -22,6 +22,9 @@
   border-radius: 0 0 1rem 0;
 
   background: var(--main-bg);
+
+  z-index: var(--z-index-higher);
+
   &::after,
   &::before {
     content: '';

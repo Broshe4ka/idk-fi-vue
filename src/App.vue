@@ -5,5 +5,3 @@ import Wrapper from './components/Wrapper.vue';
 <template>
   <Wrapper />
 </template>
-
-<style scoped></style>

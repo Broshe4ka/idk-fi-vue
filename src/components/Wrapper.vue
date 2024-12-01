@@ -1,17 +1,14 @@
 <script setup lang="ts">
 import Header from './Layout/Header.vue';
-import Toolbar from './Layout/Toolbar.vue';
+import Scene from './Scene.vue';
+import Menu from './Layout/Menu.vue';
 </script>
 
 <template>
   <div class="wrapper">
     <Header />
-    <Toolbar />
-    <img
-      src="https://i.pinimg.com/originals/86/8b/e7/868be70af8ebf3c9a8552c3409aa3919.png"
-      alt=""
-      class="wrapper__img"
-    />
+    <Menu />
+    <Scene />
   </div>
 </template>
 
@@ -27,14 +24,5 @@ import Toolbar from './Layout/Toolbar.vue';
   width: 100%;
   height: 100%;
   border-radius: 1rem;
-
-  &__img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    border-radius: inherit;
-  }
 }
 </style>
