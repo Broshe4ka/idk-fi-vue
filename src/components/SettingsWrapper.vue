@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import AdittionalMenu from './ui/menu/AdittionalMenu.vue';
-import ScenesMenu from './ui/menu/ScenesMenu.vue';
-import SettingsMenu from './ui/menu/SettingsMenu.vue';
+// import ScenesMenu from './ui/menu/ScenesMenu.vue';
+// import SettingsMenu from './ui/menu/SettingsMenu.vue';
 </script>
 
 <template>
