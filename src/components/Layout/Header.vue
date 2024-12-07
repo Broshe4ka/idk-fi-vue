@@ -31,7 +31,7 @@
     position: absolute;
     width: 1rem;
     height: 1rem;
-    background: url(icons/rec.svg);
+    background: url(/icons/rec.svg);
     transform: rotate(90deg);
   }
   &::after {

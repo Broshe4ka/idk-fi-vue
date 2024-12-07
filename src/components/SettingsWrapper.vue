@@ -6,9 +6,9 @@ import AdittionalMenu from './ui/menu/AdittionalMenu.vue';
 
 <template>
   <div class="menu-wrapper">
-    <AdittionalMenu />
-    <!-- <ScenesMenu /> -->
-    <!-- <SettingsMenu /> -->
+    <!-- <AdittionalMenu /> -->
+    <ScenesMenu />
+    <SettingsMenu />
   </div>
 </template>
 
